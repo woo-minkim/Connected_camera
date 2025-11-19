@@ -1,0 +1,37 @@
+name: fluttertemplate
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webos_service_bridge:
+    git:
+      url: https://github.com/LGE-Univ-Sogang/flutter-webos-sdk.git
+      path: plugins/packages/webos_service_bridge
+      ref: main
+  video_player: ^2.9.2
+  video_player_webos:
+    git:
+      url: https://github.com/LGE-Univ-Sogang/flutter-webos-sdk.git
+      path: plugins/packages/video_player
+      ref: main
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+    # - assets/
+    # - assets/mocks/

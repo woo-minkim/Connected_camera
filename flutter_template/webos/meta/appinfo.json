@@ -1,0 +1,29 @@
+{
+    "id": "com.flutter.app.fluttertemplate",
+    "version": "1.0.0",
+    "vendor": "LG Electronics",
+    "type": "native",
+    "main": "fluttertemplate",
+    "title": "Flutter fluttertemplate app",
+    "icon": "icon.png",
+    "iconColor": "#ffffff",
+    "largeIcon": "icon.png",
+    "handlesRelaunch": true,
+    "visible": true,
+    "defaultWindowType": "card",
+    "trustLevel": "default",
+    "resolution": "1920x1080",
+    "locationHint":"west",
+    "noSplashOnLaunch":true,
+    "spinnerOnLaunch": false,
+    "transparent":false,
+    "supportTouchMode": "full",
+    "uiRevision":2,
+    "requiredPermissions": [
+        "applications",
+        "applications.launcher",
+        "applications.operation",
+        "settings",
+        "system"
+    ]
+}
